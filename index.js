@@ -1,5 +1,5 @@
 
-export default async function create(state, props, logger) {
+export async function create(state, props, logger) {
    logger.info('hello', props);
    return {
       async start() {
