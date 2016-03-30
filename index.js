@@ -1,5 +1,5 @@
 
-module.exports = async function (state, props, logger) {
+module.exports = async (state, props, logger) => {
    logger.info('hello', props);
    return {
       async start() {
