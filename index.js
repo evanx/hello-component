@@ -1,5 +1,5 @@
 
-export async default function createHelloComponent(state, props, logger) {
+module.exports = async function (state, props, logger) {
    logger.info('hello', props);
    return {
       async start() {
@@ -9,4 +9,4 @@ export async default function createHelloComponent(state, props, logger) {
          logger.info('goodbye';      
       }
    };
-}
+};
