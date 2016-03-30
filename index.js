@@ -6,7 +6,7 @@ export default async function create(state, props, logger) {
          logger.info('state ready');
       },
       async end() {
-         logger.info('goodbye';      
+         logger.info('goodbye');
       }
    };
 }
