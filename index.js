@@ -1,5 +1,5 @@
 
-export async function(state, props, logger, service) {
+export default async function(state, props, logger, metrics, service) {
    logger.info('hello', props);
    return {
       async start() {
